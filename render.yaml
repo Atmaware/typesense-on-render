@@ -17,4 +17,4 @@ services:
   - key: TYPESENSE_ENABLE_CORS
     value: true
   - key: TYPESENSE_LISTEN_PORT
-    value: ${PORT}
+    value: 8107
