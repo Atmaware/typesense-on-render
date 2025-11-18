@@ -19,3 +19,5 @@ services:
     value: /typesense-data
   - key: TYPESENSE_ENABLE_CORS
     value: true
+  - key: TYPESENSE_GRPC_PORT
+    value: 0
