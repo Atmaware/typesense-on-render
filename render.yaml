@@ -9,6 +9,9 @@ services:
     name: typesense-data
     mountPath: /typesense-data
     sizeGB: 1  
+  ports:
+  - port: 8108
+    protocol: tcp
   envVars:
   - key: TYPESENSE_API_KEY
     generateValue: true
